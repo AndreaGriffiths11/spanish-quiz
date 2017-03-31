@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="basic">8dp</dimen>
+    <dimen name="double_basic">16dp</dimen>
+    <dimen name="triple_basic">32dp</dimen>
+</resources>

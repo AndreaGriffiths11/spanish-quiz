@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/scroll_view"
+    tools:context="me.andreagriffiths11.spanishquiz.MainActivity">
+
+    <LinearLayout style="@style/linear_layout">
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/text"
+                android:text="@string/intro1" />
+
+            <ImageView
+                style="@style/image"
+                android:src="@drawable/habla"
+                android:layout_height="match_parent" />
+
+            <TextView
+                style="@style/text"
+                android:text="@string/intro2" />
+
+            <TextView
+                style="@style/text"
+                android:text="@string/intro3" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/progress_numbers"
+                android:layout_gravity="end"
+                android:text="@string/number1" />
+
+            <TextView
+                style="@style/question_text"
+                android:text="@string/question1" />
+
+            <RadioGroup style="@style/radio_group">
+
+                <RadioButton
+                    android:id="@+id/a11"
+                    style="@style/radio_button"
+                    android:text="@string/answer11" />
+
+                <RadioButton
+                    android:id="@+id/a12"
+                    style="@style/radio_button"
+                    android:text="@string/answer12" />
+
+                <RadioButton
+                    android:id="@+id/a13"
+                    style="@style/radio_button"
+                    android:text="@string/answer13" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/progress_numbers"
+                android:layout_gravity="end"
+                android:text="@string/number2" />
+
+            <TextView
+                style="@style/question_text"
+                android:text="@string/question2" />
+
+            <RadioGroup style="@style/radio_group">
+
+                <RadioButton
+                    android:id="@+id/a21"
+                    style="@style/radio_button"
+                    android:text="@string/answer21" />
+
+                <RadioButton
+                    android:id="@+id/a22"
+                    style="@style/radio_button"
+                    android:text="@string/answer22" />
+
+                <RadioButton
+                    android:id="@+id/a23"
+                    style="@style/radio_button"
+                    android:text="@string/answer23" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/progress_numbers"
+                android:layout_gravity="end"
+                android:text="@string/number3" />
+
+            <TextView
+                style="@style/question_text"
+                android:text="@string/question3" />
+
+            <RadioGroup style="@style/radio_group">
+
+                <RadioButton
+                    android:id="@+id/a31"
+                    style="@style/radio_button"
+                    android:text="@string/answer31" />
+
+                <RadioButton
+                    android:id="@+id/a32"
+                    style="@style/radio_button"
+                    android:text="@string/answer32" />
+
+                <RadioButton
+                    android:id="@+id/a33"
+                    style="@style/radio_button"
+                    android:text="@string/answer33" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/progress_numbers"
+                android:layout_gravity="end"
+                android:text="@string/number4" />
+
+            <TextView
+                style="@style/question_text"
+                android:text="@string/question4" />
+
+            <RadioGroup style="@style/radio_group">
+
+                <RadioButton
+                    android:id="@+id/a41"
+                    style="@style/radio_button"
+                    android:text="@string/answer41" />
+
+                <RadioButton
+                    android:id="@+id/a42"
+                    style="@style/radio_button"
+                    android:text="@string/answer42" />
+
+                <RadioButton
+                    android:id="@+id/a43"
+                    style="@style/radio_button"
+                    android:text="@string/answer43" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/linear_layout">
+
+            <TextView
+                style="@style/progress_numbers"
+                android:layout_gravity="end"
+                android:text="@string/number5" />
+
+            <TextView
+                style="@style/question_text"
+                android:text="@string/question5" />
+
+            <EditText
+                android:id="@+id/editText1"
+                style="@style/edit_text" />
+
+        </LinearLayout>
+
+        <Button
+            style="@style/submit_button"
+            android:onClick="submit"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</ScrollView>

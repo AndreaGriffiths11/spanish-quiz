@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f70905</color>
+    <color name="colorPrimaryDark">#f46c04</color>
+    <color name="colorAccent">#ffea4f</color>
+    <color name="base_linear_layout">#E0E0E0</color>
+    <color name="scroll_view">#E0E0E0</color>
+    <color name="linear_layout">#FAFAFA</color>
+</resources>

@@ -1,0 +1,105 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="image">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:adjustViewBounds">true</item>
+    </style>
+
+    <style name="scroll_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/scroll_view</item>
+    </style>
+
+    <style name="base_linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/base_linear_layout</item>
+    </style>
+
+    <style name="linear_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginTop">@dimen/basic</item>
+        <item name="android:layout_marginLeft">@dimen/basic</item>
+        <item name="android:layout_marginRight">@dimen/basic</item>
+        <item name="android:background">@color/linear_layout</item>
+    </style>
+
+    <style name="text">
+        <item name="android:padding">@dimen/basic</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="question_text">
+        <item name="android:paddingLeft">@dimen/basic</item>
+        <item name="android:paddingRight">@dimen/double_basic</item>
+        <item name="android:paddingBottom">@dimen/basic</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="progress_numbers">
+        <item name="android:paddingTop">@dimen/basic</item>
+        <item name="android:paddingRight">@dimen/basic</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="radio_group">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingBottom">@dimen/basic</item>
+        <item name="android:paddingLeft">@dimen/basic</item>
+        <item name="android:paddingRight">@dimen/basic</item>
+    </style>
+
+    <style name="radio_button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/colorPrimary</item>
+        <item name="android:hint">@string/hint</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:paddingLeft">@dimen/basic</item>
+        <item name="android:paddingRight">@dimen/basic</item>
+        <item name="android:paddingBottom">@dimen/basic</item>
+    </style>
+
+    <style name="checkbox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/basic</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="submit_button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/basic</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+</resources>

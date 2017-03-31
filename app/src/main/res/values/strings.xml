@@ -1,0 +1,30 @@
+<resources>
+<string name="app_name">Spanish Quiz</string>
+<string name="intro1">Hola, Bienvenido!</string>
+<string name="intro2">Ready to test your spanish reading and cultural skills?</string>
+<string name="intro3">This test will ask you to answer five questions in spanish, scroll down to get started and hit the submit (Evaluar) button to get your final grade. Good Luck!</string>
+<string name="question1">Identifica el equivalente femenino al titulo Rey?</string>
+<string name="question2">En que continente se encuentra localizada Colombia?</string>
+<string name="question3">Selecciona la capital de Venezuela?</string>
+<string name="question4">De que pais es originalmente la cantante Shakira?</string>
+<string name="question5">Escribe la siguiente palabra en espanol: happy</string>
+<string name="answer11">Principe</string>
+<string name="answer12">Reina</string>
+<string name="answer13">Duquesa</string>
+<string name="answer21">Africa</string>
+<string name="answer22">Sur America</string>
+<string name="answer23">Europa</string>
+<string name="answer31">Bogota</string>
+<string name="answer32">Caracas</string>
+<string name="answer33">Barcelona</string>
+<string name="answer41">Italia</string>
+<string name="answer42">Colombia</string>
+<string name="answer43">Inglaterra</string>
+<string name="number1">1/5</string>
+<string name="number2">2/5</string>
+<string name="number3">3/5</string>
+<string name="number4">4/5</string>
+<string name="number5">5/5</string>
+<string name="hint">Escribe tu respuesta</string>
+<string name="submit">Evaluar</string>
+    </resources>
