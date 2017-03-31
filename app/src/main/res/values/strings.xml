@@ -6,7 +6,7 @@
 <string name="question1">Identifica el equivalente femenino al titulo Rey?</string>
 <string name="question2">En que continente se encuentra localizada Colombia?</string>
 <string name="question3">Selecciona la capital de Venezuela?</string>
-<string name="question4">De que pais es originalmente la cantante Shakira?</string>
+<string name="question4">Selecciona los paises localizados en Centro America?</string>
 <string name="question5">Escribe la siguiente palabra en espanol: happy</string>
 <string name="answer11">Principe</string>
 <string name="answer12">Reina</string>
@@ -17,9 +17,9 @@
 <string name="answer31">Bogota</string>
 <string name="answer32">Caracas</string>
 <string name="answer33">Barcelona</string>
-<string name="answer41">Italia</string>
-<string name="answer42">Colombia</string>
-<string name="answer43">Inglaterra</string>
+<string name="answer41">Colombia</string>
+<string name="answer42">Mexico</string>
+<string name="answer43">Costa Rica</string>
 <string name="number1">1/5</string>
 <string name="number2">2/5</string>
 <string name="number3">3/5</string>

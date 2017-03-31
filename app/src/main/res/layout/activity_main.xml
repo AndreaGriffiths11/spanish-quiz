@@ -14,8 +14,8 @@
 
             <ImageView
                 style="@style/image"
-                android:src="@drawable/habla"
-                android:layout_height="match_parent" />
+                android:layout_height="match_parent"
+                android:src="@drawable/habla" />
 
             <TextView
                 style="@style/text"
@@ -134,24 +134,22 @@
                 style="@style/question_text"
                 android:text="@string/question4" />
 
-            <RadioGroup style="@style/radio_group">
 
-                <RadioButton
-                    android:id="@+id/a41"
-                    style="@style/radio_button"
-                    android:text="@string/answer41" />
+            <CheckBox
+                android:id="@+id/a41"
+                style="@style/checkbox"
+                android:text="@string/answer41" />
 
-                <RadioButton
-                    android:id="@+id/a42"
-                    style="@style/radio_button"
-                    android:text="@string/answer42" />
+            <CheckBox
+                android:id="@+id/a42"
+                style="@style/checkbox"
+                android:text="@string/answer42" />
 
-                <RadioButton
-                    android:id="@+id/a43"
-                    style="@style/radio_button"
-                    android:text="@string/answer43" />
+            <CheckBox
+                android:id="@+id/a43"
+                style="@style/checkbox"
+                android:text="@string/answer43" />
 
-            </RadioGroup>
 
         </LinearLayout>
 

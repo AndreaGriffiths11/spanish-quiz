@@ -78,20 +78,25 @@ public class MainActivity extends AppCompatActivity {
         }
 
         /**
-         *  Verification of fourth question, will determine if answer is correct/incorrect, or is there no answer.
+         *  Verification of fourth question, will determine all applicable correct answers or is there are no answer.
          */
+        CheckBox checkBox1 = (CheckBox) findViewById(R.id.a41);
+        CheckBox checkBox2 = (CheckBox) findViewById(R.id.a42);
+        CheckBox checkBox3 = (CheckBox) findViewById(R.id.a43);
 
-        RadioButton radioButton41 = (RadioButton) findViewById(R.id.a41);
-        RadioButton radioButton42 = (RadioButton) findViewById(R.id.a42);
-        RadioButton radioButton43 = (RadioButton) findViewById(R.id.a43);
-        if (radioButton42.isChecked()) {
+        if (!checkBox1.isChecked() && !checkBox2.isChecked() && checkBox3.isChecked()){
             correctAnswersNumber += 1;
             isQuestion4Correct = correct;
-        } else if (radioButton41.isChecked() || radioButton43.isChecked()) {
-            isQuestion4Correct = incorrect;
-        } else {
+        } else if (!checkBox1.isChecked() && !checkBox2.isChecked() && !checkBox3.isChecked()) {
             isQuestion4Correct = noAnswer;
+        } else {
+            isQuestion4Correct = incorrect;
         }
+
+        setMessage();
+        displayMessage();
+        reset();
+
 
         /**
          *  Verification of fifth question, will determine if answer is correct/incorrect, or is there no answer.
