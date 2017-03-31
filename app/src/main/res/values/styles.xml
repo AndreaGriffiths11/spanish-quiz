@@ -79,7 +79,7 @@
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColorHint">@color/colorPrimary</item>
-        <item name="android:hint">@string/hint</item>
+        <item name="android:hint">@string/write</item>
         <item name="android:inputType">textCapWords</item>
         <item name="android:paddingLeft">@dimen/basic</item>
         <item name="android:paddingRight">@dimen/basic</item>

@@ -25,6 +25,6 @@
 <string name="number3">3/5</string>
 <string name="number4">4/5</string>
 <string name="number5">5/5</string>
-<string name="hint">Escribe tu respuesta</string>
+<string name="write">Escribe tu respuesta</string>
 <string name="submit">Evaluar</string>
     </resources>
