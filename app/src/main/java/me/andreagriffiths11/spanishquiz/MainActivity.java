@@ -122,12 +122,14 @@ public class MainActivity extends AppCompatActivity {
         if (correctAnswersNumber == 0) {
             finalMessage += "\nF";
         } else if (correctAnswersNumber == 1) {
-            finalMessage += "\nYour grade is: D";
+          finalMessage += "\nYour grade is: D";
         } else if (correctAnswersNumber == 2) {
-            finalMessage += "\nYour grade is: C";
+          finalMessage += "\nYour grade is: C";
         } else if (correctAnswersNumber == 3) {
-            finalMessage += "\nYour grade is: B";
+            finalMessage += "\nYour grade is: C Plus";
         } else if (correctAnswersNumber == 4) {
+            finalMessage += "\nYour grade is: B";
+        } else if (correctAnswersNumber == 5) {
             finalMessage += "\nFelicidades tu grado es: A Experto";
         }
         finalMessage += "\n\nYour answers:";
