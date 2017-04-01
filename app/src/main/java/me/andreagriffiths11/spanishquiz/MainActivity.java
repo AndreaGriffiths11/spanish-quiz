@@ -79,18 +79,19 @@ public class MainActivity extends AppCompatActivity {
 
         /**
          *  Verification of fourth question, will determine all applicable correct answers or is there are no answer.
+         *  there are two correct answers R.id.41 and 43, I realized I needed to add one more correct answer :)
          */
         CheckBox checkBox1 = (CheckBox) findViewById(R.id.a41);
         CheckBox checkBox2 = (CheckBox) findViewById(R.id.a42);
         CheckBox checkBox3 = (CheckBox) findViewById(R.id.a43);
 
-        if (!checkBox1.isChecked() && !checkBox2.isChecked() && checkBox3.isChecked()) {
+        if (checkBox1.isChecked() && !checkBox2.isChecked() && checkBox3.isChecked()) {
             correctAnswersNumber += 1;
             isQuestion4Correct = correct;
-        } else if (!checkBox1.isChecked() || !checkBox2.isChecked() || !checkBox3.isChecked()) {
-            isQuestion4Correct = incorrect;
+        } else if (!checkBox1.isChecked() && !checkBox2.isChecked() && !checkBox3.isChecked()) {
+            isQuestion4Correct = noAnswer;
         } else {
-            isQuestion4Correct = correct;
+            isQuestion4Correct = incorrect;
         }
 
         /**
