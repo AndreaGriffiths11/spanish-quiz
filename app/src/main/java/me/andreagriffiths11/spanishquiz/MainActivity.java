@@ -84,19 +84,14 @@ public class MainActivity extends AppCompatActivity {
         CheckBox checkBox2 = (CheckBox) findViewById(R.id.a42);
         CheckBox checkBox3 = (CheckBox) findViewById(R.id.a43);
 
-        if (!checkBox1.isChecked() && !checkBox2.isChecked() && checkBox3.isChecked()){
+        if (!checkBox1.isChecked() && !checkBox2.isChecked() && checkBox3.isChecked()) {
             correctAnswersNumber += 1;
             isQuestion4Correct = correct;
-        } else if (!checkBox1.isChecked() && !checkBox2.isChecked() && !checkBox3.isChecked()) {
-            isQuestion4Correct = noAnswer;
-        } else {
+        } else if (!checkBox1.isChecked() || !checkBox2.isChecked() || !checkBox3.isChecked()) {
             isQuestion4Correct = incorrect;
+        } else {
+            isQuestion4Correct = correct;
         }
-
-        setMessage();
-        displayMessage();
-        reset();
-
 
         /**
          *  Verification of fifth question, will determine if answer is correct/incorrect, or is there no answer.
@@ -118,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *  This method set the final message evaluation grade result
+     * This method set the final message evaluation grade result
      */
 
     public void setMessage() {
@@ -146,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *  Displays the number of correct answers on the screen in a toast message.
+     * Displays the number of correct answers on the screen in a toast message.
      */
 
     public void displayMessage() {
@@ -154,7 +149,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     /**
-     *  Value reset
+     * Value reset
      */
 
     public void reset() {
