@@ -127,9 +127,7 @@ public class MainActivity extends AppCompatActivity {
         } else if (correctAnswersNumber == 3) {
             finalMessage += "\nYour grade is: B";
         } else if (correctAnswersNumber == 4) {
-            finalMessage += "\nYour grade is: A";
-        } else if (correctAnswersNumber == 5) {
-            finalMessage += "\nFelicidades tu grado es: Experto";
+            finalMessage += "\nFelicidades tu grado es: A Experto";
         }
         finalMessage += "\n\nYour answers:";
         finalMessage += "\n1)" + isQuestion1Correct;
