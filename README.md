@@ -1,4 +1,4 @@
-# spanish-quiz
+# spanish-quiz (graded)
 
 Educational quizing app to test your spanish speaking and basic cultural knowledge skills. </b>
 </b>Five questions.
